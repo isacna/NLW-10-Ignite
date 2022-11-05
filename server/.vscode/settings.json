@@ -1,0 +1,14 @@
+{
+    "extensions.ignoreRecommendations" : true,
+    "typescript.tsserver.log" : "off",
+    "files.associations" : {
+        ".sequelizerc" : "javascript",
+        ".stylelintrc" : "json",
+        "*.tsx" : "typescriptreact",
+        ".env.*" : "dotenv",
+        ".prettierrc" : "json"
+  },
+  "[prisma]" : {
+    "editor.formatOnSave" : true
+  },
+}
